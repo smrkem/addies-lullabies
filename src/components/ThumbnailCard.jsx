@@ -12,7 +12,7 @@ function ThumbnailCard({ video, onSelect }) {
         alt={video.title}
         loading="lazy"
       />
-      <span className="card-title">{video.title}</span>
+      {/* <span className="card-title">{video.title}</span> */}
     </button>
   )
 }
